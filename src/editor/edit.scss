@@ -1,0 +1,25 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ */
+.tavern-slider {
+	&__item > a {
+		text-decoration: none;
+	}
+	
+	&__title {
+		text-decoration: none;
+		color: white;
+		text-shadow: 1px 1px #000;
+	}
+
+	.post-modified {
+		text-decoration: none;
+		color: #FFF;
+		text-shadow: 1px 1px #000;
+	}
+
+	.author-name {
+		text-shadow: 1px 1px #000;
+	}
+}
