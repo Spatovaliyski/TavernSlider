@@ -14,7 +14,8 @@
   overflow: hidden;
   position: relative;
   margin: 0;
-  width: 100%;
+  max-width: 100%;
+  width: calc(100vw - 32px); // Very hacky way to do it, probably a standard width + float calculation is better than the flex idea. Not perfect here
   
   &__slider-wrapper {
     display: flex;
