@@ -20,16 +20,10 @@ Markdown parsed.
 This section describes how to install the plugin and get it working.
 
 e.g.
-
-1. Clone this repository
-2. Save it to a folder/file, doesn't need to be in a WordPress installation for now.
-3. Run `npm install` to install all necessary packages
-3. Run `npm run build` to generate the necessary /build/ files
-4. COmbined with the /build folder, grab `tavern-slider.php` and move all in `/wp-content/plugins/tavern-slider` (assuming you've created a folder beforehand)
-4. Activate the plugin through the 'Plugins' screen in WordPress
-
-Alternatively:
 1. Clone this repository
 2. Grab the Build folder (it comes with pre-installed files)
 3. Create a folder in your move all in `/wp-content/plugins/` and move the files there.
 4 Activate the plugin!
+
+
+Demo: https://wp.spatovaliyski.com/slider/
